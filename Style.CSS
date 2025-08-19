@@ -1,33 +1,44 @@
 :root {
-  --preto: #000;
-  --branco: #fff;
-  --azul-medio: #2f4dd1;
-  --amarelo: #0000FF;
-  --lilas-claro: #D8BFD8;
+    --preto: #000;
+    --branco: #fff;
+    --azul-medio: #2f4dd1;
+    --amarelo: #0000FF;
+    --lilas-claro: #D8BFD8;
 }
 
 body {
-  color: var(--branco);
-  background-color: var(--preto);
-  margin: 0px;
+    color: var(--branco);
+    background-color: var(--preto);
+    margin: 0px;
 }
 
 header {
-  border: solid 2px;
-  border-color: var(--branco);
-  padding: 20px;
-  font-size: 32px;
-  color: var(--amarelo);
+    border: solid 2px;
+    border-color: var(--branco);
+    padding: 20px;
+    font-size: 32px;
+    color: var(--amarelo);
 }
 
 section {
-  background-color: var(--lilas-claro);
-  padding-bottom: 80px;
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
+    background-color: var(--lilas-claro);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
-div {
-  margin-right: 20px;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container {
+    margin-right: 20px;
+}
+
+iframe {
+    max-width: 100%;
 }
