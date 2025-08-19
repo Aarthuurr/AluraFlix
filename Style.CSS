@@ -1,33 +1,33 @@
-/*variaveis*/
 :root {
-    --preto: #000;
-    --branco: #fff;
-    --lilas-claro: #eb76db;
-    --azul-médio: #2f4dd1;
+  --preto: #000;
+  --preto: #000;
+  --branco: #fff;
+  --azul-medio: #2f4dd1;
+  --amarelo: #0000FF;
 }
 
 body {
-    color: var(--branco);
-    background-color: var(--preto);
-    margin: 0px; 
+  color: var(--branco);
+  background-color: var(--preto);
+  margin: 0px;
 }
 
 header {
-    border: solid 2px;
-    border-color: var(--branco);
-    padding: 20px;
-    font-size: 32px;
-    color: var(--azul-médio);
+  border: solid 2px;
+  border-color: var(--branco);
+  padding: 20px;
+  font-size: 32px;
+  color: var(--amarelo);
 }
 
 section {
-    background-color: var(--lilas-claro);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
+  background-color: var(--lilas-claro);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
 }
 
 div {
-    margin-right: 20px;
+  margin-right: 20px;
 }
