@@ -18,7 +18,7 @@ header {
     padding: 20px;
     font-size: 32px;
     color: var(--amarelo);
-}
+} /* <== Esta chave estava faltando */
 
 section {
     background-color: var(--lilas-claro);
