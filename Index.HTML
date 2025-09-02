@@ -1,35 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AluraFlix</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
-
 <body>
-    <header>
-        <h1>ALURAFLIX</h1>
-    </header>
+  <section class="recomendacoes">
+    <h2>Jujutsu Kaisen - Recomendações de Episódios</h2>
+    <div class="carrossel">
+      <div class="seta esquerda" onclick="moverCarrossel(-1)">&#10094;</div>
+      <div class="outras-recomendacoes">
+        <a href="https://www.youtube.com/watch?v=5VdPjzqO9E0">
+          <img src="https://img.youtube.com/vi/5VdPjzqO9E0/maxresdefault.jpg" alt="Jujutsu Kaisen Episódio 1" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=X7Lxa19ruGQ">
+          <img src="https://img.youtube.com/vi/X7Lxa19ruGQ/maxresdefault.jpg" alt="Jujutsu Kaisen Episódio 2" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=sLf0q8pEdH0">
+          <img src="https://img.youtube.com/vi/sLf0q8pEdH0/maxresdefault.jpg" alt="Jujutsu Kaisen Episódio 3" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=n2BhqTxG2yE">
+          <img src="https://img.youtube.com/vi/n2BhqTxG2yE/maxresdefault.jpg" alt="Jujutsu Kaisen Episódio 4" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=vxQn1R4wFmc">
+          <img src="https://img.youtube.com/vi/vxQn1R4wFmc/maxresdefault.jpg" alt="Jujutsu Kaisen Episódio 5" />
+        </a>
+      </div>
+      <div class="seta direita" onclick="moverCarrossel(1)">&#10095;</div>
+    </div>
+  </section>
 
-    <main class="container">
-        <section class="video-info">
-            <h2>Jujutsu Kaisen</h2>
-            <p>#Ep01</p>
-        </section>
-
-        <section class="video-container">
-            <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/iVmcufvaO3M?si=PZLUhhXbmG-uJhsS"
-                title="Vídeo do episódio 1 de Jujutsu Kaisen no YouTube"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-                referrerpolicy="strict-origin-when-cross-origin">
-            </iframe>
-        </section>
-    </main>
+  <script src="carrossel.js"></script>
 </body>
-</html>
